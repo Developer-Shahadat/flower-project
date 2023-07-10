@@ -254,3 +254,49 @@
     padding: 5px 5px 5px 5px;
     border-radius: 5px;
 }
+
+/* This is Hot Deal Section  */
+.discount-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 170px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hot-deal-sell{
+    padding-left: 100px;
+}
+.hot-deal-sell h2{
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+}
+.hot-deal-sell p{
+    padding-top: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+.hot-deal-sell span{
+    color: rgba(229, 84, 115, 1);
+}
+.btn-hot-deal{
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    background-color: #E55473;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 30px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.hot-deal-pic img{
+    width: 200px;
+    margin-right: 200px;
+}
