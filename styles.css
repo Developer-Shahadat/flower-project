@@ -321,7 +321,7 @@
 /* this is Input Field  */
 .bg-image{
     color: #272727;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 260px;
     width: 860px;
     height: 250px;
@@ -333,21 +333,28 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bg-image h2{
+    padding-left: 150px;
+}
 .bg-image-content{
     padding-top: 10px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    padding-left: 160px;
     
 }
 .email{
- padding: 10px 10px 10px 10px;
- border: none;
- width: 460px;
- border-radius: 5px;
+    margin-top: 25px;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    width: 460px;
+    border-radius: 5px;
+    margin-left: 100px;
 }
 .submit{
+    cursor: pointer;
     margin-left: 10px;
     border: none;
     border-radius: 10px;
@@ -355,4 +362,30 @@
     color: white;
     padding: 10px 20px 10px 20px;
 }
+/* This is Footer Section  */
+.footer-section{
+   margin-top:120px ;
+   width: 100%;
 
+}
+.end{
+    padding : 80px  80px ;
+    background-color: #111010;;
+    color:white;
+    text-align: center;
+}
+.end span {
+    color: #E55473;
+    font-weight: 800;
+}
+.footer-content{
+    padding-top: 20px;
+    text-align: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.555);
+}
+.end small{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+}
