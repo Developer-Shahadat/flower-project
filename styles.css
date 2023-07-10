@@ -7,7 +7,7 @@
 /* This is banner-section style  */
 .banner-container{
     padding-top: 30px;
-    height: 80vh;
+    height: 490px;
     background-color: rgba(229, 84, 115, 0.1);
     display: flex;
     justify-content: space-around;
@@ -77,21 +77,21 @@
 .featured-pic-one{
     width: 150px;
     margin-left: 50px;
-    padding-top: 43px;
+    padding-top: 93px;
 }
 .featured-pic-two{
-    width: 150px;
-    margin-left: 50px;
-    padding-top: 43px;
+    width: 200px;
+    margin-left: 30px;
+    padding-top: 75px;
 }
 .featured-pic-three{
     width: 150px;
     margin-left: 50px;
-    padding-top: 25px;
+    padding-top: 75px;
 }
 .first-flower{
     width: 250px;
-    height: 250px;
+    height: 300px;
     border: none;
     background-color: rgba(167, 33, 98, 0.15);
     border-radius: 150px 150px  0px 0px; 
@@ -108,7 +108,7 @@
 }
 .second-flower{
     width: 250px;
-    height: 250px;
+    height: 300px;
     border: none;
     background-color: rgba(5, 151, 160, 0.15);
     border-radius: 150px 150px  0px 0px;
@@ -119,14 +119,14 @@
     font-family: Lato;
     font-size: 16px;
     font-weight: 700;
-    padding-top: 78px;
+    padding-top: 45px;
 }
 .second-flower-name a{
     color: #272727;
 }
 .third-flower{
     width: 250px;
-    height: 250px;
+    height: 300px;
     border: none;
     background-color:rgba(71, 125, 17, 0.15);
     border-radius: 150px 150px  0px 0px;
@@ -142,4 +142,52 @@
 }
 .third-flower-name a{
     color: #272727;
+}
+
+/* This is service-Section */
+
+.service-section{
+    width: 60%;
+    margin-left: 247px;
+    padding: 50px 0px 50px 0px;
+    margin-top: 15%;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.delivery img{
+    width: 50px;
+    padding-left: 100px;
+}
+.delivery h5{
+    padding-top: 10px;
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;  
+}
+.fresh-flower img{
+    width: 50px;
+    padding-left: 70px;
+}
+.fresh-flower h5{
+    padding-top: 10px;
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;  
+}
+
+.free-support img{
+    width: 50px;
+    padding-left: 40px;
+}
+.free-support h5{
+    padding-top:10px ;
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;  
 }
