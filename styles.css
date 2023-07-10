@@ -32,7 +32,7 @@
 }
 .btn-banner{
     margin-left: 100px;
-    margin-top: 15px;
+    margin-top: 20px;
     padding: 10px 15px 10px 15px;
     border-radius: 5px;
     border: none;
@@ -45,4 +45,101 @@
 .banner-pic img{
     width: 395px;
     padding-right: 50px;
+}
+
+/* This is featured-section */
+.featured-title{
+    padding-top:130px ;
+    text-align: center;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+.featured-content{
+    padding-top: 30px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+.featured-section{
+    padding-top: 100px;
+   padding-left: 250px;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 12px;
+    align-items: center;
+}
+.featured-pic-one{
+    width: 150px;
+    margin-left: 50px;
+    padding-top: 43px;
+}
+.featured-pic-two{
+    width: 150px;
+    margin-left: 50px;
+    padding-top: 43px;
+}
+.featured-pic-three{
+    width: 150px;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+.first-flower{
+    width: 250px;
+    height: 250px;
+    border: none;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 150px 150px  0px 0px; 
+}
+.first-flower-name{
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.first-flower-name a{
+    color: #272727;
+}
+.second-flower{
+    width: 250px;
+    height: 250px;
+    border: none;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 150px 150px  0px 0px;
+    
+}
+.second-flower-name{
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 78px;
+}
+.second-flower-name a{
+    color: #272727;
+}
+.third-flower{
+    width: 250px;
+    height: 250px;
+    border: none;
+    background-color:rgba(71, 125, 17, 0.15);
+    border-radius: 150px 150px  0px 0px;
+}
+
+
+.third-flower-name{
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.third-flower-name a{
+    color: #272727;
 }
