@@ -191,3 +191,66 @@
     font-size: 16px;
     font-weight: 600;  
 }
+
+/* This is Flower-card */
+.flowers-card{
+    margin-top: 130px;
+}
+.card{
+    width: 70px;
+    height: 200px;
+    display: flex;
+    padding-left: 250px;
+    align-items: center;
+    
+}
+.card-one img{
+    width: 150px;
+  
+}
+.card-two img{
+    width: 150px;
+}
+.card-three img{
+    width: 150px;
+}
+.card-one{
+    box-shadow: 20px 20px 50px rgb(78, 77, 77);
+    padding: 10px 10px 10px 10px;  
+    border-radius: 10px;
+}
+.card-one h4{
+    color: #272727;
+    font-weight: 600;
+}
+.card-two{
+    box-shadow: 20px 20px 50px rgb(78, 77, 77);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 130px;
+}
+.card-two h4{
+    color: #272727;
+    font-weight: 600;
+}
+.card-three{
+    box-shadow: 20px 20px 50px rgb(78, 77, 77);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 130px;
+}
+
+.card-three h4{
+    color: #272727;
+    font-weight: 600;
+   
+}
+.btn-card{
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+    background-color:rgba(229, 84, 115, 1) ;
+    border: none ;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
