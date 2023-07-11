@@ -140,7 +140,7 @@
 .service-section{
     /* width: 70%; */
     margin-left: 240px;
-    margin-right: 320px;
+    margin-right: 270px;
     padding: 50px 0px 50px 0px;
     margin-top: 15%;
     background-color: rgba(39, 39, 39, 0.05);
@@ -316,7 +316,7 @@
  }
 .item-pic{
     padding-left: 50px;
-    width: 170px;
+    width: 157px;
 }
 
 /* this is Input Field  */
