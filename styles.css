@@ -138,9 +138,8 @@
 /* This is service-Section */
 
 .service-section{
-    /* width: 70%; */
+    width: 58%;
     margin-left: 240px;
-    margin-right: 270px;
     padding: 50px 0px 50px 0px;
     margin-top: 15%;
     background-color: rgba(39, 39, 39, 0.05);
@@ -324,7 +323,7 @@
     color: #272727;
     font-size: 20px;
     margin-left: 240px;
-    margin-right: 265px;
+    width: 58%;
     height: 250px;
     margin-top: 100px;
     padding-top: 50px;
